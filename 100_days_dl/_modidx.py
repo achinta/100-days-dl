@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://achinta.github.io',
                 'git_url': 'https://github.com/achinta/100-days-dl',
                 'lib_path': '100_days_dl'},
-  'syms': {'100_days_dl.core': {'100_days_dl.core.foo': ('core.html#foo', '100_days_dl/core.py')}}}
+  'syms': { '100_days_dl.core': {'100_days_dl.core.foo': ('core.html#foo', '100_days_dl/core.py')},
+            '100_days_dl.scripts.001_resnet_from_scratch': { '100_days_dl.scripts.001_resnet_from_scratch.ResidualBlock': ( 'core.html#residualblock',
+                                                                                                                            '100_days_dl/scripts/001_resnet_from_scratch.py'),
+                                                             '100_days_dl.scripts.001_resnet_from_scratch.ResidualBlock.__init__': ( 'core.html#residualblock.__init__',
+                                                                                                                                     '100_days_dl/scripts/001_resnet_from_scratch.py')}}}
