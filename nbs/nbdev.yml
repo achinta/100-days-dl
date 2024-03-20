@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "100-days-dl"
+  site-url: "https://achinta.github.io/100-days-dl"
+  description: "100 days of deep learning"
+  repo-branch: main
+  repo-url: "https://github.com/achinta/100-days-dl"
